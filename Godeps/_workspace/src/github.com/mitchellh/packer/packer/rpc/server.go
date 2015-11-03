@@ -2,8 +2,8 @@ package rpc
 
 import (
 	"fmt"
-	"github.com/hashicorp/go-msgpack/codec"
 	"github.com/mitchellh/packer/packer"
+	"github.com/ugorgi/go/codec"
 	"io"
 	"log"
 	"net/rpc"
